@@ -1,0 +1,9 @@
+
+version: 2
+
+sources:
+  - name: attendances
+    database: eoffice  
+    schema: public  
+    tables:
+      - name: attendances

@@ -1,0 +1,14 @@
+attendace:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: eoffice
+      password: eoffice123$
+      port: 5553
+      dbname: eoffice
+      schema: public
+      threads: 4
+      keepalives_idle: 0
+      search_path: public
