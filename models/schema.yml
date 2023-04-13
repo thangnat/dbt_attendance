@@ -7,3 +7,4 @@ sources:
     schema: public  
     tables:
       - name: attendace_exel
+      - name: Attendance
