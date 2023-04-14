@@ -40,3 +40,5 @@ models:
 #   - name: insert_attendaces
 #     sql: macros/insert_attendaces.sql
 #     depends_on: [select_attendaces]
+vars:
+  month: 0
