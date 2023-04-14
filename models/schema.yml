@@ -6,4 +6,5 @@ sources:
     database: eoffice  
     schema: public  
     tables:
-      - name: attendances
+      - name: attendance_csv
+      - name: Attendance
