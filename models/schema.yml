@@ -6,5 +6,8 @@ sources:
     database: eoffice  
     schema: public  
     tables:
+      - name: TimeRecordUser
+      - name: UserMapper
       - name: attendance_excel
+      - name: record_user
       - name: Attendance
