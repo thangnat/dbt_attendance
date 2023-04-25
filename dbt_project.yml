@@ -42,3 +42,4 @@ models:
 #     depends_on: [select_attendaces]
 vars:
   month: 0
+  year: 0

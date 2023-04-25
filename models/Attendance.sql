@@ -1,7 +1,7 @@
 {{
     config(
         materialized='incremental',
-        pre_hook= delete_attendance_data( var('month') )
+        pre_hook= delete_attendance_data( var('month'), var('year'))
     )
 }}
 select uuid_generate_v4() as "Id", 
